@@ -1,0 +1,96 @@
+:root{
+    --color-c1:#272B34;
+    --color-c2:#2479A9;
+    --color-c3:#3E4553;
+    --color-c4:#313642;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    padding: 0;
+}
+
+.t1{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.t-principal{
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.colorc4{
+    background-color: var(--color-c4);
+    margin-top: 15px;
+}
+
+#nuevaTarea{
+    width: 90%;
+    background-color: var(--color-c3);
+    border: 1px solid var(--color-c3);
+    border-radius: 15px;
+}
+
+#fecha{
+    font-weight: lighter;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: smaller;
+}
+
+button{
+    border-radius: 15px;
+    border: 1px solid var(--color-c2);
+    background-color:var(--color-c2);
+    color: white;
+}
+
+.tarea{
+    background-color: var(--color-c3);
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Redonder las esquinas */
+}
+
+.form-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    float: left;
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: 'calibrí';
+    color: white;
+    background: #313642;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1, h5 {
+    margin: 0; 
+}
+
+h5 {
+    margin-top: 5px; 
+    margin-bottom: 20px; 
+}
+
+input[type="text"] {
+    color: gray;
+}
+
+input[type="checkbox"] {
+    background-color: #3E4553 ; 
+}
+
+.tachado {
+    text-decoration: line-through; /* Aplica un tachado a las letras */
+  }
